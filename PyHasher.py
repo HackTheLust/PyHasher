@@ -21,6 +21,11 @@ while(True):
         os.system('clear' if os.name=='posix' else 'cls')
         os.system("python3 ./subfiles/createhash.py")
     elif(x=="2"):
+	print('''Supported Hash Algorithm
+		[+] 1 --> MD5       [+] 2 --> SHA1
+		[+] 3 --> SHA224    [+] 4 --> SHA256
+		[+] 5 --> SHA384    [+] 6 --> SHA512
+	''')
         y=input("\nDo you want full verbose details(Y/n) : ")
         if(y=="y" or y==""):
             os.system('clear' if os.name=='posix' else 'cls')
