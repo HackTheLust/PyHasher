@@ -8,5 +8,4 @@ A Simple Python toolkit to create a hash and cracking the hash using the wordlis
 # Steps to install PyHasher :-
 * git clone https://github.com/HackTheLust/PyHasher.git
 * cd PyHasher
-* pip3 install -m requirements.txt
 * python3 PyHasher.py
