@@ -29,7 +29,7 @@ while(True):
             os.system('clear' if os.name=='posix' else 'cls')
             os.system("python3 ./subfiles/crack2.py")
     elif(x=="0"):
-        print()
+        print("\n\33[32mHad a good time with you, bye!!\33[0m\n")
         break
     else:
         print("\n\33[31m----- Invalid Input -----\33[0m\n")
